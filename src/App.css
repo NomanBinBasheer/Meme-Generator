@@ -17,7 +17,11 @@ header{
 }
 header h4{
     color: white;
-    font-size: 12px;
+    font-size: 15px;
+    font-weight: 100;
+}
+main{
+    padding: 40px;
 }
 .logo{
     display: flex;
@@ -25,9 +29,29 @@ header h4{
 }
 .logo h1{
     color: white;
-    font-size: 20.75px;
+    font-size: 23px;
     margin-left: 8px;
 }
 .logo img{
-    height: 30px;
+    height: 39px;
+}
+
+.form{
+    display: grid;
+    grid-template: 40px 40px / 1fr 1fr;
+    gap: 40px;
+}
+.form input{
+    border: 2px solid #D5D4D8;
+    border-radius: 5px;
+    text-indent: 10px;
+}
+button{
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    grid-column: 1/ -1;
 }
