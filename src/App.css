@@ -42,7 +42,7 @@ main{
     gap: 40px;
 }
 .form input{
-    border: 1.72px solid #D5D4D8;
+    border: 1.71px solid #D5D4D8;
     border-radius: 5px;
     text-indent: 10px;
 }
@@ -54,4 +54,50 @@ button{
     cursor: pointer;
     font-size: 18px;
     grid-column: 1/ -1;
+}
+.meme {
+    padding: 20px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.memeImage {
+    min-width: 500px;
+    max-width: 90%;
+    border-radius: 3px;
+}
+
+.memeText{
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0;
+    padding: 0 5px;
+    font-family: impact, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
+.bottom {
+    bottom: 20px;
+}
+
+.top {
+    top: 20px;
 }
